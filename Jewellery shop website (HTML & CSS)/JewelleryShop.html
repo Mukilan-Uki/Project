@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Jewellery</title>
+    <style>
+        .background{
+            position: absolute;
+            z-index: 1;
+            height: 1024px;
+            width: 1900px;
+        }
+        .logo{
+            position: absolute;
+            z-index: 2;
+            filter: contrast(100%) brightness(1000%);
+            height: 204px;
+            width: 309px;
+            top: 10px;
+            left: 0px;
+        }
+        .top{
+            position: absolute;
+            z-index: 2;
+        }
+        ul{
+            display: flex;
+            position: relative;
+            left: 1200px;
+        }
+        li{
+            list-style: none;
+            margin: 5px;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 600;
+            transition: ease 0.3s;
+            border-radius: 40px;
+        }
+        li:hover{
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 40px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .title{
+            position: absolute;
+            z-index: 2;
+            margin-top: 300px;
+            font-size: 80px;
+            font-family: julius 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 400;
+            color: white;
+            margin-left: 60px;
+        }
+        .desc{
+            position: absolute;
+            z-index: 2;
+            margin-top: 650px;
+            margin-left: 60px;
+            color: white;
+            font-size: 27px;
+        }
+        .explore{
+            background-color: aliceblue;
+            color: black;
+            font-size: 20px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 60px;
+            margin-top: 750px;
+            padding: 20px;
+            border: none;
+            border-radius: 15px;
+            transition: 0.3s ease;
+        }
+        .explore:hover{
+            color: white;
+            background-color: #273a32;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide1">
+        <img class="background" src="/home/uki-dsa-04/Mukilan/UKi/Project/Jewellery Shop Assets/ring.png" alt="">
+        <img class="logo" src="/home/uki-dsa-04/Mukilan/UKi/Project/Jewellery Shop Assets/logojewellery.png" alt="">
+        <div class="top">
+            <ul>
+                <li><a href="" class="home">Home</a></li>
+                <li><a href="" class="gallery">Gallery</a></li>
+                <li><a href="" class="contact">Contact</a></li>
+                <li><a href="" class="about">About us</a></li>
+            </ul>
+        </div>
+        <div class="contant">
+            <h1 class="title">TIMELESS <br>ELIGANCE, INSPIRED <br>BY HERITAGE</h1>
+            <p class="desc">Explore timeless jewellery that blends <br>heritage design with modern elegance</p>
+            <button class="explore">Explore Now</button>
+        </div>
+    </div>
+    <div class="slide2">
+        <p class="title2">Elegance & Luxury</p>
+        <p class="subtitle2">OUR LATEST COLLECTIONS</p>
+        <img src="" alt="">
+    </div>
+</body>
+</html>
