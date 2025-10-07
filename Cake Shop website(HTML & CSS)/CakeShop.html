@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Cub Cake</title>
+    <style>
+        .bgImg{
+            height: 940px;
+            width: 1900px;
+            position: absolute;
+            z-index: 1;
+        }
+        .top{
+            position: absolute;
+            z-index: 2;
+            display: flex;
+        }
+        .login{
+            border-radius: 100px;
+            border: 3px solid #B1002C;
+            background-color: rgba(0, 0, 0, 0);
+            color: #B1002C;
+            height: 50px;
+            width: 170px;
+            transition: 0.3s ease;
+        }
+        .login:hover{
+            background-color: #B1002C;
+            color: white;
+        }
+        .nav{
+            display: flex;
+            margin: 40px;
+        }
+        a{
+            text-decoration: none;
+            color: #FF0B48;
+            padding: 20px;
+            transition: 0.1s ease;
+        }
+        a:hover{
+            color: #B1002C;
+            padding: 20px;
+            border-bottom: 3px solid #B1002C;
+        }
+        .logo{
+            margin-right: 200px;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: #FF0B48;
+            font-weight: 900;
+            transition: 0.3s ease;
+        }
+        .logo:hover{
+            transform: scale(1.1);
+        }
+        .middle{
+            position: absolute;
+            z-index: 2;
+            margin: 250px;
+        }
+        .title{
+            font-size: 170px;
+            color: #FF0B48;
+        }
+        .subtitle{
+            color: #FF0B48;
+        }
+        .bag{
+            height: 40px;
+            width: 40px;
+        }
+        .ordernow{
+            background-color: #B1002C;
+            color: white;
+            border-radius: 100px;
+            border: none;
+            transition: 0.3s ease;
+        }
+        .ordernow:hover{
+            background-color: rgba(0, 0, 0, 0);
+            color: #B1002C;
+        }
+        .slide1{
+            position: relative;
+            top: 1080px;
+        }
+        .title2{
+            color: #FF0B48;
+        }
+        .card{
+            color: #FF0B48;
+            border-radius: 20px;
+            background-color: #FFE5EC;
+            border: none;
+        }
+        .cakeimg{
+            border-radius: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/Untitled design.jpg" alt="bg iamge" class="bgImg">
+        <div class="top m-3">
+            <div class="logo fs-1">CUBE<br>CAKE</div>
+            <div class="nav fs-6">
+                    <li class="mx-5 my-3"><a href="#">HOME</a></li>
+                    <li class="mx-5 my-3"><a href="#">GALLERY</a></li>
+                    <li class="mx-5 my-3"><a href="#">ABOUT US</a></li>
+                    <li class="mx-5 my-3"><a href="#">CONTACT US</a></li>
+                <button class="login fw-bold fs-5 mx-5">LOGIN</button>
+            </div>
+        </div>
+        <div class="middle">
+            <h1 class="title">Bite into<br>Happiness</h1>
+            <p class="subtitle fs-2 m-2">Dive into our world of deliciously dipped<br>creation.</p>
+            <button class="ordernow p-2 px-3 fw-bold fs-5 my-5">Oreder Now <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/bag-smile-svgrepo-com.svg" class="bag" alt="shopping bag"></button>
+        </div>
+        <div class="slide1 container">
+            <h2 class="title2 display-3 text-center fw-bold">Trending Cake<br>Designs</h2>
+            <div class="row">
+                <div class="card m-3 p-3 col">
+                    <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/cakeImage2.jpg" alt="cake Image" class="cakeimg">
+                    <span class="card-title fw-bold fs-3 mt-3">Cake with Photo</span>
+                    <span class="card-subtitle mb-3">with some love for everyone</span>
+                    <span class="price fw-bold fs-2">3499 LKR</span>
+                    <del class="delprice">2000 LKR</del>
+                    <button class="ordernow p-2 px-3 fw-bold fs-5 my-5">Oreder Now <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/bag-smile-svgrepo-com.svg" class="bag" alt="shopping bag"></button>
+                </div>
+                <div class="card m-3 p-3 col">
+                    <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/cakeImage1.jpg" alt="cake Image" class="cakeimg">
+                    <span class="card-title fw-bold fs-3 mt-3">Cake with Photo</span>
+                    <span class="card-subtitle mb-3">with some love for everyone</span>
+                    <span class="price fw-bold fs-2">3499 LKR</span>
+                    <del class="delprice">2000 LKR</del>
+                    <button class="ordernow p-2 px-3 fw-bold fs-5 my-5">Oreder Now <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/bag-smile-svgrepo-com.svg" class="bag" alt="shopping bag"></button>
+                </div>
+                <div class="card m-3 p-3 col">
+                    <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/cupcake.webp" alt="cake Image" class="cakeimg">
+                    <span class="card-title fw-bold fs-3 mt-3">Cake with Photo</span>
+                    <span class="card-subtitle mb-3">with some love for everyone</span>
+                    <span class="price fw-bold fs-2">3499 LKR</span>
+                    <del class="delprice">2000 LKR</del>
+                    <button class="ordernow p-2 px-3 fw-bold fs-5 my-5">Oreder Now <img src="/home/uki-dsa-04/Mukilan/UKi/Project/Cake Shop Assets/bag-smile-svgrepo-com.svg" class="bag" alt="shopping bag"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
